@@ -8,22 +8,21 @@ let currentFace = cardBack;
 export default function PokemonCard() {
     const cards = [1, 2, 3, 4, 5]
     return (
-        <Grid container spacing={4} justifyContent="center" alignItems="center">
+        <div>
+        <Grid container spacing = {2} justifyContent="center" alignItems="center" >
             {
                 cards.map((number) => 
                     <Grid size={4} key={number}>
-                        <div className="relative">
-                            <Image
-                                key = {number}
-                                src = {currentFace}
-                                alt = {`Pokemon card ${number}`}
-                                sizes="100vw"
-                                style={{ width: '100%', height: 'auto' }}
-                            />
-                        </div>
+                        <Image
+                            key = {number}
+                            src = {cardBack}
+                            alt = "Pokemon Card Back"
+                            style={{ maxWidth: "100%", height: "auto" }}
+                        />
                     </Grid>
                 )
             }
         </Grid>
+        </div>
     )
 }
