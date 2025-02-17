@@ -4,7 +4,7 @@ import cardFront from "../../../public/tcg-card-front.png"
 import Image from "next/image"
 
 
-export default function PokemonCard({ pickedCard }) {
+export default function PokemonCard({pickedCard}: Readonly<{ pickedCard:number }>) {
     const cards = [1, 2, 3, 4, 5]
     console.debug(`Picked card is ${pickedCard}`)
     return (
