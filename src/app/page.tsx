@@ -39,7 +39,7 @@ export default function Home() {
           Source Code
         </a>
         <a
-          href="https://github.com/suryaprasad7500/pokemon-tcgp-wonder-picker"
+          href="https://www.linkedin.com/in/suryamalempati/"
           target="_blank"
           rel="noopener noreferrer"
         >
