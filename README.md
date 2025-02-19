@@ -16,3 +16,7 @@ Running the development server:
 ```bash
 npm run dev
 ```
+## Access the app
+The app is deployed from the `main` branch using AWS Amplify. It can be accessed at 
+
+https://tcgp.helios7500.com/
